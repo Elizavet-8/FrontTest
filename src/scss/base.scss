@@ -1,0 +1,58 @@
+html {
+  box-sizing: border-box;
+  font-size: 100vw  / (1920/10);
+}
+
+#app, body, html {
+  @apply w-full h-full;
+}
+
+body{
+  @apply text-[1.6rem] font-medium leading-[2rem];
+}
+
+.container {
+  @apply mx-auto my-0 py-[2rem] px-[8rem] max-w-[144rem];
+  @media only screen and (max-width: 744px) {
+    @apply px-[3rem];
+  }
+  @media only screen and (max-width: 428px) {
+    @apply px-[1.5rem];
+  }
+}
+
+@media only screen and (max-width: 1600px) {
+  html {
+    font-size: 100vw / (1600/10);
+  }
+}
+
+@media only screen and (max-width: 1440px) {
+  html {
+    font-size: 100vw / (1440/10);
+  }
+}
+
+@media only screen and (max-width: 998px) {
+  html {
+    font-size: 100vw / (998/10);
+  }
+}
+
+@media only screen and (max-width: 744px) {
+  html {
+    font-size: 100vw / (744/10);
+  }
+}
+
+@media only screen and (max-width: 580px) {
+  html {
+    font-size: 100vw / (580/10);
+  }
+}
+
+@media only screen and (max-width: 428px) {
+  html {
+    font-size: 100vw / (375/10);
+  }
+}
